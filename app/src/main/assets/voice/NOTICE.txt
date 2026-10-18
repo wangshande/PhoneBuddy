@@ -1,0 +1,6 @@
+Vosk Chinese small model, version 0.22
+Source: https://alphacephei.com/vosk/models/vosk-model-small-cn-0.22.zip
+License: Apache License, Version 2.0
+Upstream model information: https://alphacephei.com/vosk/models
+SHA256: 3af8b0e7e0f835ae9d414ce5df580237a3cfb08d586c9fbbb0f7ff29ad5b14ba
+Original archive and its notices are preserved unmodified.

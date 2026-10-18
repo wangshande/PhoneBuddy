@@ -1,0 +1,16 @@
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+.DS_Store
+*.apk
+*.aab
+*.jks
+*.keystore
+.env
+.env.*
+# Personal recordings and local regression fixture
+*.pcm
+*.wav
+*.mp3
