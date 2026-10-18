@@ -1,4 +1,4 @@
-# 桌面伙伴 · DeskBuddy
+# 桌面伙伴 · PhoneBuddy
 
 An open-source Android desk companion that reacts when you look over and keeps itself busy when you look away. On-device Chinese speech recognition, optional external ASR, and opt-in 24-hour transcription memory.
 
