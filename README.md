@@ -1,6 +1,10 @@
 # 桌面伙伴 · PhoneBuddy
 
-An open-source Android desk companion that reacts when you look over and keeps itself busy when you look away. On-device Chinese speech recognition, optional external ASR, and opt-in 24-hour transcription memory.
+**不用再买专用硬件，把闲置安卓手机变成一个会回应你的桌面伙伴。**
+
+Turn a spare Android phone into a companion that reacts when you look over and keeps itself busy when you look away. No dedicated companion hardware required. On-device Chinese speech recognition, optional external ASR, and opt-in 24-hour transcription memory.
+
+[下载预览安装包与宣传片](https://github.com/wangshande/PhoneBuddy/releases/latest)
 
 ![Five companion characters and app icon](docs/characters.png)
 
@@ -69,6 +73,12 @@ adb shell am instrument -w com.deskbuddy.design/com.deskbuddy.QaInstrumentation
 ```
 
 会短暂采集麦克风做启停检查，并测试后台听记启动/停止，结束后停止听记。测试图与结果在设计版 external files 的 `qa/`。界面注视反应、音量及文字呈现另有事件/已知录音样本注入，不能当作真人眼球跟踪准确率测试。
+
+## 宣传片素材
+
+发布页提供24秒竖版宣传片：使用手机原生角色动画帧和测试界面截图，注视与语音包含脚本测试事件，不代表端到端识别准确率。配乐为本地合成音符。
+
+Debug 构建可运行 `adb shell am instrument -w com.deskbuddy.design/com.deskbuddy.PromoInstrumentation`，导出288帧原生角色动画到应用 external files 的 `promo/`。录制前需让手机保持亮屏并解锁；入口结束后恢复原来的角色选择。
 
 ## 来源与许可
 

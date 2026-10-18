@@ -35,6 +35,7 @@ class PromoInstrumentation : Instrumentation() {
             Thread.sleep(700)
             lateinit var pet:PetView
             runOnMainSync {
+                activity.window.addFlags(android.view.WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
                 pet=views(activity.window.decorView).filterIsInstance<PetView>().first()
                 targetContext.stopService(Intent(targetContext,DeskService::class.java))
                 views(activity.window.decorView).filterIsInstance<TextView>().first { it.text.toString()==PetStyle.BLOB.label }.performClick()
