@@ -4,7 +4,7 @@
 
 Turn a spare Android phone into a companion that reacts when you look over and keeps itself busy when you look away. No dedicated companion hardware required. On-device Chinese speech recognition, optional external ASR, and opt-in 24-hour transcription memory.
 
-[下载预览安装包与宣传片](https://github.com/wangshande/PhoneBuddy/releases/latest)
+[下载预览安装包与宣传片](https://github.com/wangshande/PhoneBuddy/releases)
 
 ![Five companion characters and app icon](docs/characters.png)
 
